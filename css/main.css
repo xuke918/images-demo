@@ -1,0 +1,24 @@
+html{
+  box-sizing: border-box;
+  font: normal 100%/1.5 'Merriweather', serif;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+
+
+.masthead{
+  background-image: url("../images/logo.svg");
+  background-size: 75px auto;
+  padding-top: 6em;
+  background-repeat: no-repeat;
+  background-position: center 10px;
+  text-align: center;
+}
+
+img{
+  width: 100%;
+  display: block;
+}
