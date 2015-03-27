@@ -7,6 +7,10 @@ html{
   box-sizing: inherit;
 }
 
+img{
+  width: 100%;
+  display: block;
+}
 
 
 .masthead{
@@ -18,7 +22,18 @@ html{
   text-align: center;
 }
 
-img{
-  width: 100%;
-  display: block;
+div{
+  background-color: #3a3933;
+  padding: 1em;
+
+}
+.btn{
+  display: inline-block;
+  color: #fff;
+  text-decoration: none;
+  padding: 0.5em 0.75em;
+  border-radius: 10px;
+  background-image: liner-gradient(to bottom #a9ae98);
+  background-color: #a9ae98
+
 }
