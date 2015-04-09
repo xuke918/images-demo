@@ -14,26 +14,28 @@ img{
 
 
 .masthead{
-  background-image: url("../images/logo.svg");
-  background-size: 75px auto;
+  background-image: url("../images/logo.svg"), url("../images/mashhead-bg.png");
+  background-size: 75px auto 200px auto;
   padding-top: 6em;
-  background-repeat: no-repeat;
-  background-position: center 10px;
+  background-repeat: no-repeat, repeat;
+  background-position: center 10px, left top;
   text-align: center;
 }
 
 div{
-  background-color: #3a3933;
+  background-color: #3a3a33;
   padding: 1em;
 
 }
 .btn{
   display: inline-block;
-  color: #fff;
-  text-decoration: none;
   padding: 0.5em 0.75em;
+  text-decoration: none;
   border-radius: 10px;
-  background-image: liner-gradient(to bottom #a9ae98);
+  color: #fff;
+  background-image: liner-gradient(to bottom #a9ae98, #5b5e52);
   background-color: #a9ae98
+
+
 
 }
